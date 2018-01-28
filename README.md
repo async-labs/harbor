@@ -1,9 +1,9 @@
-# harbor
-Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB
+# Harbor
+Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB.
 
-This homepage (https://www.findharbor.com/) explains app's purpose.
+This homepage (https://www.findharbor.com/) explains the app's purpose.
 
-I am currently put more time into this project:
+I am currently putting more time into this project:
 https://github.com/builderbook/builderbook
 
 
@@ -12,7 +12,7 @@ https://github.com/builderbook/builderbook
 You can learn:
 - React/Material-UI/Next/Express/Mongoose/MongoDB boilerplate ([up-to-date boilerplate](https://github.com/builderbook/builderbook))
 - Google OAuth API, 
-- Stripe connected accounts, Stripe payments, Stripe invoices APIs,
+- Stripe connected accounts, Stripe payments, Stripe invoices API,
 - Gmail API
 
 
@@ -25,10 +25,13 @@ Check up:
 
 ## Screenshots
 
+Mentor settings page
 ![harbor-mentor-page](https://user-images.githubusercontent.com/10218864/35487210-e5c3dd44-042d-11e8-8e6c-2e4673fac929.png)
 
+Mentor contact page
 ![harbor-settings-page](https://user-images.githubusercontent.com/10218864/35487211-e5dcb77e-042d-11e8-9fa7-1fe6eb151ef4.png)
 
+Customer checkout
 ![habor-checkout](https://user-images.githubusercontent.com/10218864/35487337-3bbb9006-042f-11e8-80da-4cfab3a17fbb.png)
 
 
@@ -36,7 +39,7 @@ Check up:
 - Clone the project and run `yarn` to add packages.
 - Before you start the app, create a `.env` file at the app's root. This file must have _at least three env variables_: `MONGO_URL_TEST`, `Google_clientID`, `Google_clientSecret`. We recommend free MongoDB at mLab.
 
-  To use all features and third-party integrations (such as Stripe, Google OAuth, Mailchimp and etc), add values to all env variables in `.env` file:
+  To use all features and third-party integrations (such as Stripe, Google OAuth), add values to all env variables in `.env` file:
   `.env` :
   ```
   MONGO_URL="XXXXXX"
@@ -72,7 +75,7 @@ Check up:
 
 
 ## Deploy
-Follow below steps to deploy Builder Book app with Zeit's [now](https://zeit.co/now).
+Follow these steps to deploy Harbor app with Zeit's [now](https://zeit.co/now).
 
 1. Install now: `npm install -g now`
 
@@ -82,10 +85,12 @@ Follow below steps to deploy Builder Book app with Zeit's [now](https://zeit.co/
 
 4. Make sure you updated `ROOT_URL` in `package.json` and `lib/getRootURL.js` files.
 
-5. Check that you have all production-level env variable in `.env`. In your terminal, deploy the app by running `now`.
+5. Check that you have all production-level env variable in `.env`. 
 
-5. Now outputs your deployment's URL, for example: `harbor-zomcvzgtvc.now.sh`.
+6. In your terminal, deploy the app by running `now`.
 
-6. Point successful deployment to your domain, for example: `now ln harbor-zomcvzgtvc.now.sh builderbook.org`.
+7. Now outputs your deployment's URL, for example: `harbor-zomcvzgtvc.now.sh`.
+
+8. Point successful deployment to your domain, for example: `now ln harbor-zomcvzgtvc.now.sh builderbook.org`.
 
 You are done.
