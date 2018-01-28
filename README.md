@@ -1,5 +1,7 @@
 # harbor
-open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB
+Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB
+
+This homepage (https://www.findharbor.com/) explains app's purpose.
 
 
 ## How can I use this app?
@@ -20,9 +22,11 @@ Check up:
 
 ## Screenshots
 
+![harbor-mentor-page](https://user-images.githubusercontent.com/10218864/35487210-e5c3dd44-042d-11e8-8e6c-2e4673fac929.png)
+
 ![harbor-settings-page](https://user-images.githubusercontent.com/10218864/35487211-e5dcb77e-042d-11e8-9fa7-1fe6eb151ef4.png)
 
-![harbor-mentor-page](https://user-images.githubusercontent.com/10218864/35487210-e5c3dd44-042d-11e8-8e6c-2e4673fac929.png)
+![habor-checkout](https://user-images.githubusercontent.com/10218864/35487337-3bbb9006-042f-11e8-80da-4cfab3a17fbb.png)
 
 
 ## Run locally
