@@ -3,11 +3,14 @@ Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB
 
 This homepage (https://www.findharbor.com/) explains app's purpose.
 
+I am currently put more time into this project:
+https://github.com/builderbook/builderbook
+
 
 ## How can I use this app?
 
 You can learn:
-- React/Material-UI/Next/Express/Mongoose/MongoDB boilerplate
+- React/Material-UI/Next/Express/Mongoose/MongoDB boilerplate ([up-to-date boilerplate](https://github.com/builderbook/builderbook))
 - Google OAuth API, 
 - Stripe connected accounts, Stripe payments, Stripe invoices APIs,
 - Gmail API
