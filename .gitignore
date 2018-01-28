@@ -1,0 +1,26 @@
+*~
+*.swp
+.meteor-spk
+*.sublime-workspace
+tmp/
+node_modules/
+npm-debug.log
+.vscode/
+.build/*
+
+.DS_Store
+
+# build output
+.next
+
+.vscode/
+node_modules/
+
+webApp/node_modules/
+webApp/.build/*
+webApp/.next
+webApp/.coverage
+webApp/.env
+
+cronJobs/node_modules/
+cronJobs/.env

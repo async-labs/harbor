@@ -1,0 +1,28 @@
+{
+  "name": "harbor-cronjobs",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel --watch src -d dist/",
+    "deploy": "babel src -d dist/ && serverless deploy",
+    "invoke": "USE_MONGO_TEST2=1 NODE_ENV2=dev serverless invoke local"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.102.0",
+    "dotenv": "^4.0.0",
+    "email-addresses": "^3.0.1",
+    "googleapis": "^20.1.0",
+    "handlebars": "^4.0.10",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.7",
+    "qs": "^6.5.0",
+    "request": "^2.81.0",
+    "stripe": "^4.24.0",
+    "winston": "^2.3.1"
+  }
+}
