@@ -1,7 +1,7 @@
 # Harbor
 Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB.
 
-This homepage (https://www.findharbor.com/) explains the app's purpose.
+This app allows anyone with Gmail account to charge for advice sent via email.
 
 I am currently putting more time into this project:
 https://github.com/builderbook/builderbook
@@ -19,7 +19,6 @@ You can learn:
 ## Live product
 
 Check up:
-- https://app.findharbor.com/login
 - https://app.findharbor.com/contact/kelly-burke
 
 
