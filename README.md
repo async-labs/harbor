@@ -1,7 +1,7 @@
 # Harbor
 Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB.
 
-This app allows anyone with Gmail account to charge for advice sent via email.
+This app allows anyone with a Gmail account to receive payments for sending advice via email.
 
 I am currently putting more time into this project:
 https://github.com/builderbook/builderbook
@@ -14,12 +14,6 @@ You can learn:
 - Google OAuth API, 
 - Stripe connected accounts, Stripe payments, Stripe invoices API,
 - Gmail API
-
-
-## Live product
-
-Check up:
-- https://app.findharbor.com/contact/kelly-burke
 
 
 ## Screenshots
