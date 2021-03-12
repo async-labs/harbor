@@ -3,9 +3,6 @@ Open source web app built with React/Material-UI/Next/Express/Mongoose/MongoDB.
 
 This app allows anyone with a Gmail account to receive payments for sending advice via email.
 
-I am currently putting more time into this project:
-https://github.com/builderbook/builderbook
-
 
 ## How can I use this app?
 
